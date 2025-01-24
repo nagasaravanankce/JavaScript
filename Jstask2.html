@@ -1,0 +1,334 @@
+
+<html>
+   <body>
+    <script>
+         alert("HELLO,WORLD!");//Task1
+
+         //Task2
+          a=10;
+          b=20;
+          name='hello js!';
+          value=true;
+          console.log(a,"\n",name,"\n",value);
+         
+          //Task3
+          console.log(a+b);
+         
+          //Task4
+          console.log('hi'+' This is Mern stack developer');
+         
+          //Task5
+          console.log(typeof a,"\n",typeof name)
+         
+          //Task6
+          // This is a single line comments
+          /*This is a multicommand
+          */
+         
+          //Task7
+         //In sem-colon line we can write multiple line into a single line
+         //In non semi-colon line we should write code in multipe lines only
+         
+         //Task8
+         for( i=1;i<2;i++){
+            for( j=1;j<3;j++){
+                console.log(i);
+                console.log(j);
+            }
+         }
+         
+         //Task9
+         n=1;line=' Multiple variable in single line';let line2=n+line
+         console.log(line2);
+         
+         //Task10
+         //While using script tag in top of the html :it execute before the html document is read
+         //while using in bottom in of the html:It execute after all html documnet is runed  
+         
+         // Task11
+         age=20;
+         console.log( age);
+        
+         //Task12  "use strict";
+         let y=12;
+         console.log(y);
+        
+         //Task13
+         delete y;
+         console.log(y);
+        
+         //Task14
+         age=20;
+         console.log( age);
+         //"use strict";
+           let z=12;
+         console.log(y);
+        
+         //task16
+         let aa=10;
+         const ab=20;
+         var ac="HI?"
+
+         //Task17
+         /*ab=12;
+         Uncaught TypeError TypeError: Assignment to constant variable.
+    at <anonymous> (c:\Users\student\OneDrive\Desktop\Mernstack\Jstask2.html:73:12)*/
+
+        //Task18
+        let ae;
+        console.log(ae);
+        //undefined
+
+        //Task19
+        ad=10;
+          af=20;
+          ag='hello js!';
+          ah=true;
+          console.log(ad,"\n",ag,"\n",ah);
+
+          //Task20  
+          let ba='hi';
+          let bb='hello';
+          console.log(bb);//hello
+
+          //Task21
+          bc=10;
+          bd=20;
+          be='hello js!';
+          bf=true;
+
+          //Task22
+          console.log(typeof bc,"\n",typeof bd);
+
+          //Task23
+          sy=Symbol('id');
+          console.log(sy);
+
+          //Task24
+          bg=null;
+          console.log(typeof bg);//object
+
+          //Task25
+          //var is no block scope
+          //let is inside block level scope
+
+          //Task26
+          cz='123';
+          cz=cz*1;
+          console.log(cz);//implict
+          ca='Hello';
+          ca=Number(ca);
+          console.log(ca);//explict
+
+          //Task27
+          cb=123445;
+          cb=String(cb);
+          console.log(cb);
+
+          //Task28
+          ce=10;
+          cd=20;
+          console.log(ce+cd);
+          console.log(ce-cd);
+          console.log(ce*cd);
+          console.log(ce/cd);
+         
+          //Task29
+          da=10;
+          da++;db=10;
+          db--;
+          console.log(da);
+          console.log(db);
+
+          //Task30
+          result=ce+cd/da*db;
+          console.log(result);
+
+          //Task31
+          if(2 > 1){
+            console.log('2 is greater than 1');
+          }if(1 < 2){
+            console.log('2 is greater than 1');
+          }
+          if(2>=2){
+            console.log('both are same');
+          }
+          if(2<=2){
+            console.log('both are same');
+          }
+
+          //Task32
+          if(2=='2'){
+            console.log('both are not same values');
+          }
+          if(2===2){
+            console.log('both are same values');
+          }
+
+          //Task33
+          function compareStrings(str1, str2) {
+            return str1.localeCompare(str2);
+        }
+        console.log(compareStrings("apple", "banana"));
+        console.log(compareStrings("apple", "apple"));
+
+        //Task34
+        console.log('5' != 5); // false, because '5' is converted to 5 and they are equal
+        console.log('5' !== 5); // true, because '5' is a string and 5 is a number
+        console.log(null != undefined); // false, because null and undefined are considered equal
+        console.log(null !== undefined); // true, because null and undefined are different data types
+
+        //Task35
+       /* dc=null;
+        dd;
+        console.log(dc == dd); 
+        console.log(dc === dd); 
+        Uncaught ReferenceError ReferenceError: dd is not defined
+        at <anonymous> (c:\Users\student\OneDrive\Desktop\Mernstack\Jstask2.html:183:9)
+            */
+
+        //Task36
+        ea=2;
+        if(ea%2==0){
+            console.log("it even number");
+        }
+
+        //task37
+        eb=2;
+        if(eb>=0||eb<=0){
+            if(eb>0){
+            console.log("it is a positive number");}
+            if(eb==0){console.log("the value is zero");}
+            if(eb<0){console.log("it is a negative value");}
+        }
+
+        //Task38
+        let ec = 5;
+        let  ed= ec> 10 ? console.log("x is greater than 10") : console.log("x is less than or equal to 10");
+
+        //Task39
+        let variable;
+        console.log(typeof variable !== 'undefined' && variable !== null ? 'Variable is defined' : 'Variable is not defined');
+
+        //Task40
+        let ee;
+        if(typeof ee=="undefined"){
+          ee=5; 
+          console.log(ee);
+        }else{
+          console.log("variable is not defined");
+        }
+
+        //Task41
+        fa=5;
+        if(fa>0||fa<10){
+          console.log("number is between 0 and 10");
+        }
+        else{ console.log("number is above 10")}
+
+        //Task42
+        fb=5;
+        if(fb>0&&fb<10){
+          console.log("number is between 0 and 10");
+        }
+        else{ console.log("number is above 10")}
+
+        //Task43
+        fc=true;
+        fd=!fc;
+        console.log(fd);
+
+        //Task44
+        fd=-5
+        if(fd==0||fd>0&&fd<10){
+          console.log("number is between 0 and 10");
+        }else{ console.log("number is negtive number");}
+
+        //Task45
+        let fe=1;
+        let ff=0;
+        if(fe==ff){console.log("non boolean is exceuted");}
+        else{ console.log("the non boolen is not working");}
+
+        //Task46
+        let fg=10;
+        let fh=20;
+        let sum1=sum(fg,fh);
+        function sum(fi,fj){
+          console.log(fi+fj);
+        }
+
+        //Task47
+        l=2.5;
+        b=7;
+        let calrec1=(le,br)=>{
+          return console.log(le*br);
+        }
+        calrec1();
+
+        //Task48
+        let call1=()=> console.log("call from without parameter");
+        call1();
+
+        //Task49
+        function returnsNothing() {        }
+        console.log(returnsNothing()); // outputs: undefined
+
+        //Task50
+        a="hi"
+        function hi(b){
+          c=b;
+          console.log(c)
+        }
+        hi();
+
+        //Task51
+        const greet = (name) => `Hello, ${name}!`;
+        console.log(greet("John")); 
+        console.log(greet("Alice")); 
+        console.log(greet("Bob")); 
+        console.log(greet("Eve"));
+        
+        //Task52
+        a=10;
+        b=20;
+        let named=(a,b)=> {console.log(a+b);}
+        named();
+
+        //Task53
+        let even= () => {
+          s=56;
+         if(s%2==0){ return true;}
+         else{ return false;}
+        }
+        console.log(even());
+
+        //Task54
+        let maxv=()=>{
+           a=10;b=20;
+           if(a>b){return console.log(a);}
+           else{ return console.log(b)}
+          
+        }
+        maxv();
+
+        //Task55
+        const myObject = {
+
+          value: 10,
+          multiplyTraditional: function(num) {
+            console.log("Traditional function: this =", this);
+            return this.value * num;
+          },
+          multiplyArrow: (num) => {
+            console.log("Arrow function: this =", this);
+            return this.value * num;
+          }
+        };
+        console.log(myObject.multiplyTraditional(2)); 
+        console.log(myObject.multiplyArrow(2)); 
+
+
+    </script>
+   </body>
+</html>
